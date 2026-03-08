@@ -1,0 +1,326 @@
+Create a premium high-conversion responsive landing page for a company called **MEGZ ELECTRICALS**.
+
+The company provides professional services in:
+
+• Electrical Installation
+• Solar Power Installation
+• CCTV Installation and Security Systems
+
+The goal of the landing page is to **generate leads through phone calls, WhatsApp, and quote requests**.
+
+The website must look **modern, trustworthy, and premium**, optimized for **mobile first**, but fully responsive for desktop.
+
+Implement **automatic light/dark mode based on user system preference** with a manual toggle in the header.
+
+Use a clean professional color palette:
+
+Primary: Deep Electric Blue (#0A2540)
+Accent: Energy Yellow (#FFC107)
+Background: White / Dark mode equivalent
+
+Typography:
+Headlines: Montserrat or Poppins
+Body: Inter
+
+Add smooth scroll animations, hover effects, and subtle section transitions to make the site feel modern.
+
+The design should be similar to premium service websites with strong visual hierarchy and large high-quality imagery.
+
+---
+
+HEADER / NAVIGATION
+
+Include:
+
+Logo: MEGZ ELECTRICALS
+Menu links:
+
+Home
+Services
+Projects
+About
+Contact
+
+Add two CTA buttons in the header:
+
+Get Free Quote
+WhatsApp Us
+
+Also include a **dark/light mode toggle**.
+
+---
+
+HERO SECTION
+
+Create a powerful hero section designed to immediately communicate trust.
+
+Headline:
+
+Reliable Electrical, Solar & CCTV Installation Services
+
+Subheadline:
+
+Professional installation solutions for homes, businesses, and industrial facilities. Power your property with safe electrical systems, solar energy, and smart security.
+
+Primary CTA:
+Get Free Quote
+
+Secondary CTA:
+Chat on WhatsApp
+
+Hero background image description for AI generation:
+
+A cinematic professional electrician installing electrical wiring in a modern house panel board, with visible tools, safety gloves, and warm natural lighting. The scene should look realistic, professional, and trustworthy.
+
+Add supporting floating mini images:
+
+Image 1:
+Technician installing solar panels on a modern house rooftop under bright sunlight.
+
+Image 2:
+Security technician mounting a modern CCTV camera on a building exterior.
+
+---
+
+TRUST BADGES SECTION
+
+Display trust indicators:
+
+10+ Years Experience
+500+ Installations Completed
+Certified Technicians
+24/7 Emergency Support
+
+Use small icons and clean cards.
+
+Background image suggestion:
+
+Close-up of electrician testing electrical voltage with a multimeter.
+
+---
+
+SERVICES SECTION
+
+Create three service cards with icons and images.
+
+Service 1:
+Electrical Installation
+
+Description:
+Complete wiring, panel installation, electrical maintenance, and power system setup for residential and commercial buildings.
+
+Image description:
+Electrician installing a distribution board panel with organized wiring and circuit breakers.
+
+---
+
+Service 2:
+Solar Installation
+
+Description:
+Professional solar panel systems including inverters, batteries, hybrid systems, and off-grid solutions.
+
+Image description:
+Wide rooftop solar panel installation with technicians working under bright daylight.
+
+---
+
+Service 3:
+CCTV Installation
+
+Description:
+Advanced security camera installation for homes, offices, and commercial buildings with remote monitoring.
+
+Image description:
+Modern CCTV camera mounted on a wall with city buildings blurred in the background.
+
+---
+
+INSTALLATION PACKAGES SECTION
+
+Create three solar packages.
+
+Solar Starter Package
+
+Small homes
+Basic solar panel system
+Battery backup
+Inverter included
+
+Solar Pro Package
+
+Medium homes
+Higher power output
+Hybrid inverter
+Extended battery capacity
+
+Solar Business Package
+
+Commercial buildings
+Large solar arrays
+High capacity inverters
+Energy cost reduction
+
+Image suggestions:
+
+Solar panels on residential rooftop
+Large solar installation on warehouse roof
+Technician configuring solar inverter system
+
+---
+
+WHY CHOOSE MEGZ ELECTRICALS
+
+Create 4–5 feature cards.
+
+Certified Technicians
+Quality Materials
+Affordable Pricing
+Fast Installation
+After Installation Support
+
+Image description:
+
+Professional electrician team working together installing electrical infrastructure.
+
+---
+
+PROJECT GALLERY
+
+Create a grid gallery with 6 images.
+
+Image prompts:
+
+1.
+
+Solar panels installed on modern residential house rooftop.
+
+2.
+
+Technician installing CCTV camera on office building.
+
+3.
+
+Electrician working inside a breaker panel with organized wiring.
+
+4.
+
+Solar battery and inverter system mounted on wall.
+
+5.
+
+Security camera monitoring modern home entrance.
+
+6.
+
+Industrial electrical wiring installation in commercial building.
+
+Images should look **realistic, professional, and cinematic**.
+
+---
+
+HOW IT WORKS SECTION
+
+Create a 4-step process.
+
+Step 1:
+Request a Quote
+
+Step 2:
+Site Inspection
+
+Step 3:
+Professional Installation
+
+Step 4:
+Testing & Ongoing Support
+
+Include simple icons for each step.
+
+---
+
+TESTIMONIALS SECTION
+
+Add 3 testimonial cards.
+
+Example:
+
+"MEGZ Electricals installed our solar system perfectly. Very professional and reliable."
+
+"The CCTV installation improved the security of our office greatly."
+
+"Fast and clean electrical work. Highly recommended."
+
+Include star ratings.
+
+---
+
+EMERGENCY SERVICE CTA
+
+Create a bold section:
+
+24/7 Emergency Electrical Support
+
+Text:
+Having electrical issues or power problems? Our technicians are ready to help.
+
+Buttons:
+
+Call Now
+WhatsApp Technician
+
+Background image suggestion:
+
+Electrician repairing electrical panel during evening with strong work lighting.
+
+---
+
+CONTACT SECTION
+
+Include:
+
+Phone number
+WhatsApp button
+Email
+Location map placeholder
+
+Add a **Quick Quote Form** with fields:
+
+Name
+Phone
+Service Needed (Electrical / Solar / CCTV)
+Project Type (Home / Office / Commercial)
+Message
+
+Submit button:
+
+Request Free Quote
+
+---
+
+FOOTER
+
+Include:
+
+Company logo
+Quick links
+Services list
+Contact info
+Social icons
+
+Copyright:
+
+© MEGZ ELECTRICALS
+
+---
+
+ADDITIONAL FEATURES
+
+Add:
+
+Floating WhatsApp button
+Floating call button
+Smooth scrolling
+Subtle animations
+Fully responsive layout
+SEO optimized headings
