@@ -35,14 +35,23 @@ export function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300">
-              <Button size="lg" className="bg-accent text-primary hover:bg-accent/90 h-14 px-8 text-base font-bold rounded-full shadow-[0_0_20px_rgba(255,193,7,0.3)]">
+              <a 
+                href="#contact" 
+                onClick={(e) => { e.preventDefault(); document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' }); }}
+                className="bg-accent text-primary hover:bg-accent/90 h-14 px-8 text-base font-bold rounded-full shadow-[0_0_20px_rgba(255,193,7,0.3)] flex items-center justify-center transition-all"
+              >
                 Get Free Quote
                 <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-              <Button size="lg" variant="outline" className="h-14 px-8 text-base font-semibold rounded-full border-white/30 text-primary hover:bg-white hover:text-primary backdrop-blur-sm bg-white/10 dark:text-white dark:hover:text-primary">
+              </a>
+              <a 
+                href="https://wa.me/15551234567" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="h-14 px-8 text-base font-semibold rounded-full border border-white/30 text-primary hover:bg-white hover:text-primary backdrop-blur-sm bg-white/10 dark:text-white dark:hover:text-primary transition-colors flex items-center justify-center"
+              >
                 <MessageCircle className="mr-2 w-5 h-5" />
                 Chat on WhatsApp
-              </Button>
+              </a>
             </div>
             
             <div className="mt-12 flex items-center gap-6 animate-in fade-in duration-1000 delay-500">

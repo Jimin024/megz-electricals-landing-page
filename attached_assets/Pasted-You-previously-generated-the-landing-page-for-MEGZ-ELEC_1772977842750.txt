@@ -1,0 +1,210 @@
+You previously generated the landing page for **MEGZ ELECTRICALS**.
+Now perform a **full functional audit, debugging, and deployment process**.
+
+Do NOT redesign the page.
+Focus on **fixing functionality, validating interactions, optimizing performance, and deploying to GitHub Pages**.
+
+Follow this checklist carefully.
+
+---
+
+STEP 1 — SCAN THE ENTIRE PROJECT
+
+Analyze the entire codebase including:
+
+HTML
+CSS
+JavaScript
+Assets
+Forms
+Navigation
+Buttons
+Animations
+
+Identify any **broken functionality, missing links, console errors, or non-working UI interactions**.
+
+Fix all issues.
+
+---
+
+STEP 2 — FIX ALL USER INTERACTIONS
+
+Test and repair every interactive element.
+
+Ensure the following work perfectly:
+
+Navigation menu links scroll to correct sections.
+
+Mobile hamburger menu opens and closes properly.
+
+All CTA buttons function correctly:
+
+Get Free Quote
+WhatsApp Us
+Call Now
+Request Quote
+
+If phone number or WhatsApp link is missing, create placeholders:
+
+tel:+00000000000
+
+https://wa.me/00000000000
+
+The **contact form must work properly**.
+
+Implement a simple working form solution such as:
+
+Formspree
+EmailJS
+Netlify Forms
+or basic JavaScript validation with a simulated submission.
+
+Add form validation:
+
+Required fields
+Valid phone format
+Error messages
+Success message
+
+---
+
+STEP 3 — DARK/LIGHT MODE FUNCTIONALITY
+
+Ensure the dark/light mode toggle works correctly.
+
+Requirements:
+
+Automatically detect system theme using prefers-color-scheme.
+
+Allow manual toggle.
+
+Save user preference in localStorage.
+
+Ensure all UI components adapt properly in both themes.
+
+---
+
+STEP 4 — SMOOTH SCROLL & ANIMATIONS
+
+Verify and fix:
+
+Smooth scrolling for navigation links.
+
+Scroll animations for sections.
+
+Ensure animations trigger correctly and do not break layout.
+
+Animations must be lightweight and mobile friendly.
+
+---
+
+STEP 5 — IMAGE LOADING & PERFORMANCE
+
+Check all images.
+
+Fix broken image paths.
+
+Optimize images for fast loading.
+
+Add:
+
+loading="lazy"
+
+Ensure responsive image behavior.
+
+---
+
+STEP 6 — MOBILE RESPONSIVENESS
+
+Test layout across devices:
+
+Mobile
+Tablet
+Desktop
+
+Fix issues such as:
+
+Overflow problems
+Broken grids
+Misaligned elements
+Buttons too small for touch
+
+Ensure excellent mobile UX.
+
+---
+
+STEP 7 — SEO BASICS
+
+Ensure the page includes:
+
+Proper title tag
+
+Meta description
+
+Open Graph tags
+
+Accessible headings (H1, H2, H3)
+
+Alt text for images
+
+---
+
+STEP 8 — CONSOLE ERROR CHECK
+
+Run the site and inspect browser console.
+
+Fix all:
+
+JavaScript errors
+404 asset issues
+CSS conflicts
+
+The console must be clean.
+
+---
+
+STEP 9 — PREPARE FOR GITHUB PAGES DEPLOYMENT
+
+Structure project cleanly:
+
+/index.html
+/styles.css
+/script.js
+/assets/images
+
+Ensure all paths are **relative**, not absolute.
+
+---
+
+STEP 10 — CREATE GITHUB DEPLOYMENT
+
+Initialize a git repository.
+
+Commit all files.
+
+Create a GitHub repository named:
+
+megz-electricals-landing-page
+
+Push the project to GitHub.
+
+Enable **GitHub Pages** using:
+
+Branch: main
+Folder: root
+
+Ensure the website builds successfully.
+
+---
+
+STEP 11 — FINAL OUTPUT
+
+After deployment provide:
+
+GitHub repository link
+
+GitHub Pages live URL
+
+Summary of all fixes performed.
+
+Ensure the website loads correctly and all interactions work properly.

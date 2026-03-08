@@ -29,14 +29,22 @@ export function EmergencyCTA() {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" className="bg-destructive hover:bg-destructive/90 text-white h-14 px-8 text-base font-bold rounded-full">
+            <a 
+              href="tel:+15559876543" 
+              className="bg-destructive hover:bg-destructive/90 text-white h-14 px-8 text-base font-bold rounded-full flex items-center justify-center transition-colors"
+            >
               <PhoneCall className="mr-2 w-5 h-5" />
               Call Now
-            </Button>
-            <Button size="lg" className="bg-[#25D366] hover:bg-[#128C7E] text-white h-14 px-8 text-base font-bold rounded-full border-none">
+            </a>
+            <a 
+              href="https://wa.me/15559876543" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-[#25D366] hover:bg-[#128C7E] text-white h-14 px-8 text-base font-bold rounded-full flex items-center justify-center transition-colors"
+            >
               <MessageCircle className="mr-2 w-5 h-5" />
               WhatsApp Technician
-            </Button>
+            </a>
           </div>
         </div>
       </div>

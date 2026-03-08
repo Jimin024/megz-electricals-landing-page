@@ -94,16 +94,17 @@ export function Packages() {
                 </ul>
               </div>
               
-              <Button 
-                size="lg" 
-                className={`w-full rounded-xl font-bold ${
+              <a 
+                href="#contact"
+                onClick={(e) => { e.preventDefault(); document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' }); }}
+                className={`w-full h-12 rounded-xl font-bold flex items-center justify-center transition-colors ${
                   pkg.highlighted 
                     ? "bg-primary text-white hover:bg-primary/90" 
                     : "bg-white text-primary hover:bg-white/90"
                 }`}
               >
                 Request Quote
-              </Button>
+              </a>
             </div>
           ))}
         </div>

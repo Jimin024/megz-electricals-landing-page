@@ -63,10 +63,14 @@ export function Services() {
                 <p className="text-muted-foreground mb-8 flex-grow">
                   {service.description}
                 </p>
-                <Button variant="ghost" className="w-fit p-0 hover:bg-transparent text-primary dark:text-white font-semibold group/btn">
+                <a 
+                  href="#contact"
+                  onClick={(e) => { e.preventDefault(); document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' }); }}
+                  className="inline-flex items-center p-0 text-primary dark:text-white font-semibold group/btn hover:gap-3 transition-all"
+                >
                   Learn More 
                   <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
-                </Button>
+                </a>
               </div>
             </div>
           ))}

@@ -94,14 +94,23 @@ export function Navbar() {
                 <span className="sr-only">Toggle theme</span>
               </Button>
               
-              <Button variant="outline" className="hidden xl:flex gap-2 border-primary text-primary hover:bg-primary hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-primary rounded-full px-6">
+              <a 
+                href="https://wa.me/15551234567" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hidden xl:flex items-center gap-2 px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-primary transition-colors"
+              >
                 <MessageCircle className="w-4 h-4" />
                 WhatsApp Us
-              </Button>
+              </a>
               
-              <Button className="bg-accent text-primary hover:bg-accent/90 rounded-full px-6 font-semibold shadow-lg shadow-accent/20">
+              <a 
+                href="#contact" 
+                onClick={(e) => handleScrollToSection(e, "#contact")}
+                className="bg-accent text-primary hover:bg-accent/90 rounded-full px-6 py-2 font-semibold shadow-lg shadow-accent/20 transition-colors inline-block"
+              >
                 Get Free Quote
-              </Button>
+              </a>
             </div>
           </nav>
 
@@ -145,13 +154,22 @@ export function Navbar() {
               ))}
             </ul>
             <div className="flex flex-col gap-3 mt-4">
-              <Button className="w-full bg-accent text-primary hover:bg-accent/90" size="lg">
+              <a 
+                href="#contact" 
+                onClick={(e) => handleScrollToSection(e, "#contact")}
+                className="w-full bg-accent text-primary hover:bg-accent/90 h-10 px-4 py-2 rounded-lg text-base font-bold flex items-center justify-center transition-colors block"
+              >
                 Get Free Quote
-              </Button>
-              <Button variant="outline" className="w-full" size="lg">
+              </a>
+              <a 
+                href="https://wa.me/15551234567" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full border border-border text-foreground hover:bg-muted h-10 px-4 py-2 rounded-lg text-base font-semibold flex items-center justify-center transition-colors"
+              >
                 <MessageCircle className="w-4 h-4 mr-2" />
                 WhatsApp Us
-              </Button>
+              </a>
             </div>
           </div>
         </div>
