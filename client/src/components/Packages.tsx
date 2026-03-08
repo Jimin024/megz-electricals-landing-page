@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 
 export function Packages() {
@@ -50,8 +49,8 @@ export function Packages() {
     <section className="py-24 bg-primary text-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-sm font-bold text-accent tracking-wider uppercase mb-3">Pricing Plans</h2>
-          <h3 className="text-3xl md:text-4xl lg:text-5xl font-black mb-6">Solar Installation Packages</h3>
+          <p className="text-sm font-bold text-accent tracking-wider uppercase mb-3">Pricing Plans</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-6">Solar Installation Packages</h2>
           <p className="text-lg text-white/80">
             Choose the right solar solution for your energy needs. We offer flexible packages tailored for homes and businesses.
           </p>
@@ -75,7 +74,7 @@ export function Packages() {
               
               <div className="mb-8">
                 <p className={`text-sm font-bold mb-2 ${pkg.highlighted ? "text-primary" : "text-accent"}`}>{pkg.target}</p>
-                <h4 className="text-3xl font-black mb-4">{pkg.name}</h4>
+                <h3 className="text-3xl font-black mb-4">{pkg.name}</h3>
                 <p className={pkg.highlighted ? "text-muted-foreground" : "text-white/70"}>
                   {pkg.description}
                 </p>

@@ -23,11 +23,11 @@ export function Testimonials() {
   ];
 
   return (
-    <section className="py-24 bg-primary text-white">
+    <section id="testimonials" className="py-24 bg-primary text-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-sm font-bold text-accent tracking-wider uppercase mb-3">Testimonials</h2>
-          <h3 className="text-3xl md:text-4xl lg:text-5xl font-black">What Our Clients Say</h3>
+          <p className="text-sm font-bold text-accent tracking-wider uppercase mb-3">Testimonials</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black">What Our Clients Say</h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -41,7 +41,7 @@ export function Testimonials() {
               <p className="text-lg font-medium mb-8 leading-relaxed">"{testimonial.text}"</p>
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="font-bold text-white">{testimonial.author}</h4>
+                  <h3 className="font-bold text-white">{testimonial.author}</h3>
                   <p className="text-white/70 text-sm">{testimonial.role}</p>
                 </div>
                 <div className="flex">

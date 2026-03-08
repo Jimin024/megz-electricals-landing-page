@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -64,8 +63,8 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-16">
           
           <div>
-            <h2 className="text-sm font-bold text-accent tracking-wider uppercase mb-3">Get In Touch</h2>
-            <h3 className="text-3xl md:text-4xl lg:text-5xl font-black mb-6">Ready to Power Your Next Project?</h3>
+            <p className="text-sm font-bold text-accent tracking-wider uppercase mb-3">Get In Touch</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-6">Ready to Power Your Next Project?</h2>
             <p className="text-lg text-muted-foreground mb-10">
               Contact us today for a free consultation and quote. Our experts are ready to provide the best solutions for your electrical, solar, and security needs.
             </p>

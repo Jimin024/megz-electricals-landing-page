@@ -1,5 +1,4 @@
-import { Link } from "wouter";
-import { Moon, Sun, Menu, X, Phone, MessageCircle } from "lucide-react";
+import { Moon, Sun, Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";

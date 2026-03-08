@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Linkedin, ArrowUp } from "lucide-react";
+﻿import { Facebook, Twitter, Instagram, Linkedin, ArrowUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Footer() {
@@ -7,7 +7,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-[#051626] text-white pt-20 pb-10">
+    <footer className="relative bg-[#051626] text-white pt-20 pb-10">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
           
@@ -76,7 +76,7 @@ export function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/50 text-sm">
-            © {new Date().getFullYear()} MEGZ ELECTRICALS. All rights reserved.
+            &copy; {new Date().getFullYear()} MEGZ ELECTRICALS. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-white/50">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

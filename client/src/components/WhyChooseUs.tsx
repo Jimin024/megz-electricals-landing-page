@@ -12,7 +12,7 @@ export function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-24 bg-white dark:bg-card overflow-hidden">
+    <section id="about" className="py-24 bg-white dark:bg-card overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           
@@ -22,6 +22,8 @@ export function WhyChooseUs() {
               src={teamImg} 
               alt="Professional electrical team" 
               className="relative z-10 w-full h-auto rounded-2xl shadow-xl object-cover"
+              loading="lazy"
+              decoding="async"
             />
             
             {/* Floating badge */}
@@ -32,8 +34,8 @@ export function WhyChooseUs() {
           </div>
           
           <div>
-            <h2 className="text-sm font-bold text-accent tracking-wider uppercase mb-3">Why Choose Us</h2>
-            <h3 className="text-3xl md:text-4xl lg:text-5xl font-black mb-6">The Trusted Choice for Your Power Needs</h3>
+            <p className="text-sm font-bold text-accent tracking-wider uppercase mb-3">Why Choose Us</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-6">The Trusted Choice for Your Power Needs</h2>
             <p className="text-lg text-muted-foreground mb-8">
               At MEGZ ELECTRICALS, we don't just install systems; we build lasting relationships based on trust, quality, and reliability. Our team is dedicated to providing the highest standard of service in every project.
             </p>

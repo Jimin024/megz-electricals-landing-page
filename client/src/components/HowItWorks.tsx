@@ -26,8 +26,8 @@ export function HowItWorks() {
     <section className="py-24 bg-white dark:bg-card">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-sm font-bold text-accent tracking-wider uppercase mb-3">Process</h2>
-          <h3 className="text-3xl md:text-4xl lg:text-5xl font-black mb-6">How It Works</h3>
+          <p className="text-sm font-bold text-accent tracking-wider uppercase mb-3">Process</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-6">How It Works</h2>
           <p className="text-lg text-muted-foreground">
             A simple, transparent process to get your home or business powered and secured.
           </p>
@@ -44,7 +44,7 @@ export function HowItWorks() {
                   {step.number}
                 </span>
               </div>
-              <h4 className="text-xl font-bold mb-3">{step.title}</h4>
+              <h3 className="text-xl font-bold mb-3">{step.title}</h3>
               <p className="text-muted-foreground">{step.description}</p>
             </div>
           ))}

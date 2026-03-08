@@ -27,6 +27,7 @@ export function TrustBadges() {
   return (
     <section className="py-12 bg-white dark:bg-card border-y">
       <div className="container mx-auto px-4 md:px-6">
+        <h2 className="sr-only">Why clients trust MEGZ ELECTRICALS</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {badges.map((badge, index) => (
             <div 

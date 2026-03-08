@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { MessageCircle, ArrowRight, ShieldCheck } from "lucide-react";
 import heroBg from "@/assets/images/hero-bg.png";
 import heroSolar from "@/assets/images/hero-solar.png";
@@ -14,6 +13,8 @@ export function Hero() {
           src={heroBg} 
           alt="Electrician working" 
           className="w-full h-full object-cover object-center"
+          decoding="async"
+          fetchPriority="high"
         />
       </div>
 
@@ -58,7 +59,7 @@ export function Hero() {
               <div className="flex -space-x-4">
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="w-10 h-10 rounded-full border-2 border-primary bg-muted flex items-center justify-center overflow-hidden">
-                    <img src={`https://i.pravatar.cc/100?img=${i}`} alt="Customer" />
+                    <img src={`https://i.pravatar.cc/100?img=${i}`} alt={`Happy customer ${i}`} loading="lazy" decoding="async" />
                   </div>
                 ))}
               </div>
@@ -79,14 +80,14 @@ export function Hero() {
           <div className="hidden lg:block relative h-full min-h-[500px] w-full animate-in fade-in slide-in-from-right-8 duration-1000 delay-300">
             {/* Floating Images Composition */}
             <div className="absolute top-[10%] right-[10%] w-[65%] rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10 rotate-2 hover:rotate-0 transition-transform duration-500 z-20">
-              <img src={heroSolar} alt="Solar Installation" className="w-full h-auto object-cover" />
+              <img src={heroSolar} alt="Solar installation project" className="w-full h-auto object-cover" loading="lazy" decoding="async" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-4">
                 <p className="text-white font-semibold">Premium Solar Solutions</p>
               </div>
             </div>
             
             <div className="absolute bottom-[10%] left-[5%] w-[55%] rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10 -rotate-3 hover:rotate-0 transition-transform duration-500 z-30">
-              <img src={heroCctv} alt="CCTV Installation" className="w-full h-auto object-cover" />
+              <img src={heroCctv} alt="CCTV installation project" className="w-full h-auto object-cover" loading="lazy" decoding="async" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-4">
                 <p className="text-white font-semibold">Smart Security Systems</p>
               </div>

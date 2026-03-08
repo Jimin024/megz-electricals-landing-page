@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { PhoneCall, MessageCircle } from "lucide-react";
 import emergencyBg from "@/assets/images/emergency-bg.png";
 
@@ -11,6 +10,8 @@ export function EmergencyCTA() {
           src={emergencyBg} 
           alt="Emergency electrical repair" 
           className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
         />
       </div>
 
