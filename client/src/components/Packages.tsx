@@ -62,7 +62,7 @@ export function Packages() {
               key={index} 
               className={`rounded-3xl p-8 flex flex-col relative ${
                 pkg.highlighted 
-                  ? "bg-white text-foreground shadow-2xl scale-105 border-4 border-accent z-10" 
+                  ? "bg-white text-slate-900 dark:text-slate-900 shadow-2xl scale-105 border-4 border-accent z-10" 
                   : "bg-primary-foreground/10 border border-white/20 backdrop-blur-sm"
               }`}
             >
@@ -74,8 +74,8 @@ export function Packages() {
               
               <div className="mb-8">
                 <p className={`text-sm font-bold mb-2 ${pkg.highlighted ? "text-primary" : "text-accent"}`}>{pkg.target}</p>
-                <h3 className="text-3xl font-black mb-4">{pkg.name}</h3>
-                <p className={pkg.highlighted ? "text-muted-foreground" : "text-white/70"}>
+                <h3 className={`text-3xl font-black mb-4 ${pkg.highlighted ? "text-slate-900 dark:text-slate-900" : ""}`}>{pkg.name}</h3>
+                <p className={pkg.highlighted ? "text-slate-700 dark:text-slate-800" : "text-white/70"}>
                   {pkg.description}
                 </p>
               </div>
@@ -87,7 +87,7 @@ export function Packages() {
                       <div className={`mt-0.5 rounded-full p-0.5 ${pkg.highlighted ? "bg-primary/10 text-primary" : "bg-white/10 text-accent"}`}>
                         <Check className="w-4 h-4" />
                       </div>
-                      <span className={pkg.highlighted ? "text-foreground" : "text-white/90"}>{feature}</span>
+                      <span className={pkg.highlighted ? "text-slate-800 dark:text-slate-900" : "text-white/90"}>{feature}</span>
                     </li>
                   ))}
                 </ul>

@@ -48,7 +48,7 @@ export function Hero() {
                 href="https://wa.me/15551234567" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="h-14 px-8 text-base font-semibold rounded-full border border-white/30 text-primary hover:bg-white hover:text-primary backdrop-blur-sm bg-white/10 dark:text-white dark:hover:text-primary transition-colors flex items-center justify-center"
+                className="h-14 px-8 text-base font-semibold rounded-full border border-white/50 text-white hover:bg-white/20 hover:text-white backdrop-blur-sm bg-white/10 dark:text-white transition-colors flex items-center justify-center"
               >
                 <MessageCircle className="mr-2 w-5 h-5" />
                 Chat on WhatsApp
